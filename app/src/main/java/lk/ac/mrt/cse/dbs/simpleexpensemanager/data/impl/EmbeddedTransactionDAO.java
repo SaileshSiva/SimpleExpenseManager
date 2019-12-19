@@ -19,6 +19,10 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
 
+/**
+ * Created by Sailesh on 11/19/2017.
+ */
+
 public class EmbeddedTransactionDAO extends SQLiteOpenHelper implements TransactionDAO {
     public static final String DATABASE_NAME = "170531T";
     public static final String EXPENSE_COLUMN_ID = "id";

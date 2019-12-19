@@ -2,6 +2,10 @@ package lk.ac.mrt.cse.dbs.simpleexpensemanager.control;
 
 import...
 
+/**
+ * Created by Sailesh on 11/19/2017.
+ */
+
 public class EmbeddedDemoExpenseManager extends ExpenseManager{
 
     public EmbeddedDemoExpenseManager(){setup();}

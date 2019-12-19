@@ -2,7 +2,11 @@ package lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl;
 
 import ...
 
-public class EmbeddedAccountDAO extends SQLiteOpenHelper implements AccountDAO {
+/**
+ * Created by Sailesh on 11/19/2017.
+ */
+
+public class EmbeddedAccountDAO extends SQLiteOpenHelper implements AccountDAO{
 
     public static final String DATABASE_NAME = "170531T";
     public static final String CONTACTS_COLUMN_ACC = "accountno";
